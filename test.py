@@ -9,4 +9,3 @@ while (option == True):
         option = False
     else:
         sayHelloWorld(name)
-
