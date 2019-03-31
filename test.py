@@ -1,4 +1,6 @@
-def helloworld():
-    print("Hello world!")
+def sayHelloWorld(name):
+    print("Hello world! ", name , " , nice to meet you.")
 
-helloworld()
+    
+name = input("What is your name?")
+sayHelloWorld(name)
